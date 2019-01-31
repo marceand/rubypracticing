@@ -38,3 +38,23 @@ end
 [1, 2, 3, 4, 5].each do |x|
     puts "each iterator #{x}"
 end
+
+# Array
+intArray = [1, 2, 3, 4, 5]
+puts "array at index 0 is #{intArray[0]}"
+
+# array push
+intArray.push(6)
+puts "6 was added #{intArray}"
+
+# hash map
+hashNames = {"key1" => "Ruby", "key2" => "Kotlin", "key3" => "Java"}
+puts "this is the value for key1: #{hashNames["key1"]}"
+hashNames.each { |key, value| puts "#{key}: #{value}" }
+[1, 2, 3, 4, 5].each{ |x| puts "each bracket #{x}"}
+
+# Class
+class Vehicle
+end
+
+vahicle = Vehicle.new
